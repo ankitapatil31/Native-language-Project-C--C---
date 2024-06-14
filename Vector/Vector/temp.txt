@@ -1,0 +1,26 @@
+int * CVector::end()
+{
+	size_t i;
+	int ino;
+	int * pTemp = NULL;
+	m_iSize++;
+	pTemp = new int(m_iSize*(sizeof(int)));
+	if(NULL == pTemp)
+	{
+		cout<<"Memory Allocation Fail\n";
+		return pPtr;
+	}
+	mymemcpy(pTemp,pPtr,m_iSize-1);
+	Deallocate(pPtr);
+	cin>>ino;
+	//pPtr = pTemp;
+	for(i=0; i < m_iSize-1; i++)
+	{
+			cout<<" "<<pPtr[i];
+	}
+	return pPtr;
+}
+void Deallocate(int *pPtr)
+{
+	delete(pPtr);
+}

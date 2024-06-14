@@ -1,0 +1,270 @@
+﻿Build started 21-08-2020 21:59:39.
+     1>Project "C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\DEMO1\DEMO1\DEMO1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\DEMO1.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "STL Version5(Using Template).cpp"
+         STL Version5(Using Template).cpp
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(151): warning C4101: 'iPos' : unreferenced local variable
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(384) : see reference to function template instantiation 'void mymain<int>(T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(151): warning C4101: 'iPos' : unreferenced local variable
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(387) : see reference to function template instantiation 'void mymain<char>(T)' being compiled
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(151): warning C4101: 'iPos' : unreferenced local variable
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(390) : see reference to function template instantiation 'void mymain<float>(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(151): warning C4101: 'iPos' : unreferenced local variable
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(393) : see reference to function template instantiation 'void mymain<double>(T)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2955: 'List<T>::Iterater' : use of class template requires template argument list
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(79) : see declaration of 'List<T>::Iterater'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(181) : see reference to function template instantiation 'void DisplayIterater<T>(List<T> &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(384) : see reference to function template instantiation 'void mymain<int>(T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2514: 'List<T>::Iterater' : class has no constructors
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(79) : see declaration of 'List<T>::Iterater'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): could be 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): or       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(109): or       'bool List<T>::Iterater<T>::operator !=(List<T>::Iterater<T> &)'
+                 while trying to match the argument list '(List<T>::Iterater, List<T>::Iterater<T>)'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '++' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(96): could be 'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(void)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(106): or       'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(int)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(144): error C2678: binary '*' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(88): could be 'T List<T>::Iterater<T>::operator *(void)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2514: 'List<T>::Iterater' : class has no constructors
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(79) : see declaration of 'List<T>::Iterater'
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(181) : see reference to function template instantiation 'void DisplayIterater<T>(List<T> &)' being compiled
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(387) : see reference to function template instantiation 'void mymain<char>(T)' being compiled
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): could be 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): or       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(109): or       'bool List<T>::Iterater<T>::operator !=(List<T>::Iterater<T> &)'
+                 while trying to match the argument list '(List<T>::Iterater, List<T>::Iterater<T>)'
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '++' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(96): could be 'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(void)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(106): or       'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(int)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(144): error C2678: binary '*' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=char
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(88): could be 'T List<T>::Iterater<T>::operator *(void)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=char
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2514: 'List<T>::Iterater' : class has no constructors
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(79) : see declaration of 'List<T>::Iterater'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(181) : see reference to function template instantiation 'void DisplayIterater<T>(List<T> &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(390) : see reference to function template instantiation 'void mymain<float>(T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): could be 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): or       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(109): or       'bool List<T>::Iterater<T>::operator !=(List<T>::Iterater<T> &)'
+                 while trying to match the argument list '(List<T>::Iterater, List<T>::Iterater<T>)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '++' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(96): could be 'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(void)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(106): or       'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(int)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(144): error C2678: binary '*' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(88): could be 'T List<T>::Iterater<T>::operator *(void)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2514: 'List<T>::Iterater' : class has no constructors
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(79) : see declaration of 'List<T>::Iterater'
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(181) : see reference to function template instantiation 'void DisplayIterater<T>(List<T> &)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(393) : see reference to function template instantiation 'void mymain<double>(T)' being compiled
+                 with
+                 [
+                     T=double
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '!=' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(425): could be 'bool std::operator !=(const std::error_code &,const std::error_condition &)'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\system_error(432): or       'bool std::operator !=(const std::error_condition &,const std::error_code &)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(109): or       'bool List<T>::Iterater<T>::operator !=(List<T>::Iterater<T> &)'
+                 while trying to match the argument list '(List<T>::Iterater, List<T>::Iterater<T>)'
+                 with
+                 [
+                     T=double
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(142): error C2678: binary '++' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(96): could be 'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(void)'
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(106): or       'List<T>::Iterater<T> &List<T>::Iterater<T>::operator ++(int)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=double
+                 ]
+     1>c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(144): error C2678: binary '*' : no operator found which takes a left-hand operand of type 'List<T>::Iterater' (or there is no acceptable conversion)
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\users\ankit\onedrive\documents\visual studio 2010\projects\demo1\demo1\stl version5(using template).cpp(88): could be 'T List<T>::Iterater<T>::operator *(void)'
+                 while trying to match the argument list '(List<T>::Iterater)'
+                 with
+                 [
+                     T=double
+                 ]
+     1>Done Building Project "C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\DEMO1\DEMO1\DEMO1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.50

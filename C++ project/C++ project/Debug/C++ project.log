@@ -1,0 +1,30 @@
+﻿Build started 07-10-2020 13:16:03.
+     1>Project "C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\C++ project\C++ project\C++ project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\C++ project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt demo1.cpp
+         demo1.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\C++ project\Debug\C++ project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\C++ project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\C++ project\Debug\C++ project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\C++ project\Debug\C++ project.lib" /MACHINE:X86 "Debug\C++ project.exe.embed.manifest.res"
+         "Debug\constructor calling sequence.obj"
+         Debug\demo.obj
+         Debug\demo1.obj
+         "Debug\static task.obj"
+         "Debug\virtual task imp.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\C++ project.exe.embed.manifest" /manifest "Debug\C++ project.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         C++ project.vcxproj -> C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\C++ project\Debug\C++ project.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\C++ project.unsuccessfulbuild".
+         Touching "Debug\C++ project.lastbuildstate".
+     1>Done Building Project "C:\Users\ankit\OneDrive\Documents\Visual Studio 2010\Projects\C++ project\C++ project\C++ project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81
